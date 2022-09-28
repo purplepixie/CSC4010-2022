@@ -1,0 +1,17 @@
+Wed 28 Sep 16:51:45 BST 2022
+1-simple 1-simple.c 2-thread 2-thread.c 3-openmp 3-openmp.c jobscript.sh slurm-10197732.out EXECUTING SEQUENTIAL PROGRAM 1-simple 1-simple.c 2-thread 2-thread.c 3-openmp 3-openmp.c jobscript.sh slurm-10197732.out
+From 100000000 to 100005000 = 5000 numbers
+.......................................................................................................................................................................................................................................................................................
+Elapsed: 37.31, CPU Time: 37.31
+
+1-simple 1-simple.c 2-thread 2-thread.c 3-openmp 3-openmp.c jobscript.sh slurm-10197732.out EXECUTING THREADED PROGRAM 1-simple 1-simple.c 2-thread 2-thread.c 3-openmp 3-openmp.c jobscript.sh slurm-10197732.out
+From 100000000 to 100005000 = 5000 numbers
+Using 16 threads.
+Thread range is 312 per thread........................................................................................................................................................................................................................................................................................
+Elapsed: 3.22, CPU Time: 39.27
+
+1-simple 1-simple.c 2-thread 2-thread.c 3-openmp 3-openmp.c jobscript.sh slurm-10197732.out EXECUTING OPENMP PROGRAM 1-simple 1-simple.c 2-thread 2-thread.c 3-openmp 3-openmp.c jobscript.sh slurm-10197732.out
+From 100000000 to 100005000 = 5000 numbers
+Using 16 cores.
+.......................................................................................................................................................................................................................................................................................
+Elapsed: 3.17, CPU Time: 38.38
